@@ -1,0 +1,90 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex1 {
+  flex: 1;
+}
+.flex2 {
+  flex: 2;
+}
+.flex3 {
+  flex: 3;
+}
+.flex4 {
+  flex: 4;
+}
+.flex5 {
+  flex: 5;
+}
+.flex6 {
+  flex: 6;
+}
+
+body {
+  font-family: Courier New;
+  padding: 5px;
+  background-image: url('musicback.jpg');
+  background-repeat: revert-layer;
+  background-size: 100%;
+  background-position: revert;
+}
+
+#interface img {
+  margin-left: 10%;
+  width: 350px;
+  height: 300px;
+}
+#interface figcaption {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#selecTirada figure img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+#selecTirada h2 {
+  margin-left: 20%;
+  margin-bottom: 2%;
+  margin-top: 6%;
+}
+#selecTirada figure figcaption {
+  text-align: center;
+  margin-bottom: 15%;
+}
+#selecTirada figure:hover {
+  transform: scale(1.5) rotate(5deg);
+}
+#selecTirada figure {
+  display: inline-block;
+  transition: all 0.3s;
+}
+h1 {
+  margin-bottom: 2%;
+  margin-left: 22%;
+  text-shadow: 4px 4px 4px lightgrey;
+  font-size: 3.5em;
+}
+#resultado {
+  margin-left: 37%;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#interface figcaption {
+  margin-right: 40%;
+  margin-bottom: 5%;
+}
+#estadisticas {
+  margin-top: 5%;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+#jugSelector {
+  transition: transform 2s;
+}
+#cpuSelector {
+  transition: transform 2s;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+
+	<h1 class="flex-container">PIEDRA, PAPEL Y TIJERA</h1>
+
+	<div class="flex-container" id="interface"> 
+		<figure class="flex1">
+			<figcaption>Jugador 1</figcaption>
+			<img src="inter.png" id="jugSelector">
+		</figure>
+
+		<figure class="flex1">
+			<figcaption>CPU</figcaption>
+			<img src="inter.png" id="cpuSelector">
+		</figure>
+	</div>
+
+	<div> 
+		<output id="resultado">Esperando tirada...</output>
+	</div>
+
+	<div class="flex-container">
+		
+		<div class="flex2" id="selecTirada">
+			<h2>Selecciona tirada</h2>
+
+			<figure>
+				<figcaption>Tijera</figcaption>
+				<img src="tijeras.png" id="tijerasBtn">
+			</figure>
+
+			<figure>
+				<figcaption>Papel</figcaption>
+				<img src="papel.png" id="papelBtn">
+			</figure>
+			
+			<figure>
+				<figcaption>Piedra</figcaption>
+				<img src="piedra.png" id="piedraBtn">
+			</figure>
+			
+			
+				
+		</div>
+		
+		<div class="flex1" id="estadisticas"> 
+			<h2>Estadísticas</h2>
+			<span>Partidas:</span>
+			<output id="partidas"></output>
+			<br>
+			<span>Ganadas:</span>
+			<output id="ganadas"></output>
+			<br>
+			<span>Perdidas:</span>
+			<output id="perdidas"></output>
+			<br>
+			<span>Empatadas:</span>
+			<output id="empatadas"></output>
+		</div>
+	
+	</div>
+
+
+</body>
+</html>
